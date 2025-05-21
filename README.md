@@ -1,4 +1,4 @@
-# Typing of the Dead string extractor
+# Typing of the Dead text extractor
 
 ## What does this do?
 
@@ -6,8 +6,8 @@ This is a small program that decrypts and decodes the text strings from the 2000
 
 ## How do I use this?
 
-Locate your ToTD installation directory and place `totd_string_extractor.py` in the `word` subfolder thereof.
-Run `python totd_string_extractor.py` to extract the data.
+Locate your ToTD installation directory and place `totd_text_extractor.py` in the `word` subfolder thereof.
+Run `python totd_text_extractor.py` to extract the data.
 
 ## What doesn't this do?
 
