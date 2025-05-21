@@ -11,8 +11,8 @@ class Mode(Enum):
     WEIRD = 4
     TOWER = 5
 
-FILENAMES = ["totd-coliseum.txt", "totd-emperor.txt", "totd-general.txt", "totd-genredict.txt", "totd-weird.txt", "totd-tower.txt"]
-PATTERNS = ["ZE04*.bin", "ZE06*.bin", "Z000*.bin", "ZE05*.bin", "ZE03*.bin", "ZE01*.bin"]
+FILENAMES = ("totd-coliseum.txt", "totd-emperor.txt", "totd-general.txt", "totd-genredict.txt", "totd-weird.txt", "totd-tower.txt")
+PATTERNS = ("ZE04*.bin", "ZE06*.bin", "Z000*.bin", "ZE05*.bin", "ZE03*.bin", "ZE01*.bin")
 SUBDIR = "extracted"
 
 if not os.path.exists(SUBDIR) or not os.path.isdir(SUBDIR):
